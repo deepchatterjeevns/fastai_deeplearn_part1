@@ -5,7 +5,7 @@
 
 - Make sure you enclose your code in triple back ticks.  Example:  
 
->use this code - notice the 3 " ` " enclosing the code block:  
+>use this code - notice the 3 ` enclosing the code block:  
 
 ![triple_backticks](images/triple_backticks.png)
 
@@ -36,7 +36,7 @@ OSError: [Errno 12] Cannot allocate memory
 
 :red_circle: **NOTE:** Do NOT put your Jupyter Notebook under the `/data/` directory!  Here's [the link](http://forums.fast.ai/t/how-to-remove-ipynb-checkpoint/8532/2) for why.
 
-### Option 1 (default):  under /courses
+### Option 1 (default):  under `/courses`
 The default location is under the `dl1` folder, wherever you've cloned the repo on your GPU machine.
 >my example
 ```bash
@@ -157,12 +157,12 @@ test data
 It's important to understand that:  
 - in the case of train/test, the test set is used to test for **generalization**
 - the **holdout data** is a second test set
-    
+
 ---
 ## Q5:  How do I copy files or data from my local computer to a cloud machine (Paperspace, AWS, etc)?
 
-[instructions on using `scp` command to transfer files from platforms](
-https://github.com/reshamas/fastai_deeplearn_part1/blob/master/tools/scp_xfer_files_local_to_aws.md)
- 
+[Instructions on using `scp` command to transfer files from platforms](https://github.com/reshamas/fastai_deeplearn_part1/blob/master/tools/copy_files_local_to_cloud.md)
 
-
+---
+## Q6:  Where do I put my sample images?
+[testing sample images after the model has been created](http://forums.fast.ai/t/wiki-lesson-1/9398/282)
